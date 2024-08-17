@@ -26,6 +26,38 @@ Build fails while building the `aws-crt-swift` module.
     </tr>
 </table>
 
+<table>
+    <thead>
+        <tr>
+            <th colspan=3>
+            Other conditions where the build works as exected
+            </th>
+        </tr>
+        <tr>
+        <th>OS</th>
+        <th>arch</th>
+        <th>Swift Version</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>macOS 14.6.1</td>
+            <td>arm64</td>
+            <td>Swift 5.10 from Xcode 15.4</td>
+        </tr>
+        <tr>
+            <td>macOS 14.6.1 arm64</td>
+            <td>arm64</td>
+            <td>Swift 6.0 from Xcode 16 beta 5</td>
+        </tr>
+        <tr>
+            <td>Ubuntu 24.04 aarch64</td>
+            <td>aarch64</td>
+            <td>Swift 5.10.1</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ```bash
 /opt/swift-6/usr/bin/swift build
