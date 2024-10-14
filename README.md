@@ -1,9 +1,14 @@
 # LambdaTest
 
+Edit: 2024-10-13
+
+As of the released versions of Swift-6.0, this works as expected with the default swift sdk.
+
+------------------------------
 This is an attempt to call an AWS Lambda function from a Swift program.
 The code is a simplified version of a real-life utility calling a specific
 lambda function. The code builds with Swift-5 and Swift-6 in macOS and Linux
-(Ubutu 22.04 amd64 and Ubuntu 24.04 aarch64), but fails to build on Linux
+(Ubuntu 22.04 amd64 and Ubuntu 24.04 aarch64), but fails to build on Linux
 with Swift-6 (Ubuntu 22.04 amd64 and Ubuntu 24.04 aarch64).
 
 Build fails while building the `aws-crt-swift` module.
